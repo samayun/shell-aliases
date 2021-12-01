@@ -1,0 +1,1 @@
+cp -al aliases/. ~/
