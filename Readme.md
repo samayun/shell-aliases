@@ -2,7 +2,7 @@
 
 ## Type on terminal
 
-```bash
+```json
 bash install.sh
 ```
 
@@ -10,7 +10,9 @@ bash install.sh
 ```bash
 
 # filename: .bash_aliases
+# Edit it : gedit ~/.bash_aliases
 # filename: .zsh_aliases
+# Edit it : gedit ~/.zsh_aliases
 
 # GIT
 alias gs='git status'
