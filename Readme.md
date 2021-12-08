@@ -32,6 +32,8 @@ alias ns="npm start"
 alias ns:d="npm run start:dev"
 alias nd="npm run dev"
 alias nb="npm run build"
+alias nw="npm run watch"
+alias nwp="npm run watch-poll"
 alias ni="npm install"
 alias nid="npm install -D"
 alias nig="npm install -g"
@@ -81,12 +83,15 @@ alias pads="php artisan db:seed"
 
 
 # Makefile
-alias m='make'
-alias mb='make build'
-alias ml='make logs'
-alias ms='make start'
-alias mst='make stop'
-alias kn='sudo killall node'
-alias kd='docker kill $(docker ps -q)'
+alias m="make"
+alias mb="make build"
+alias ml="make logs"
+alias ms="make start"
+alias mst="make stop"
+alias kn="sudo killall node"
+alias kd="docker kill $(docker ps -q)"
+
+# Composer
+alias coi="composer update --ignore-platform-reqs"
 
 ```
