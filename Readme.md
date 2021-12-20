@@ -21,7 +21,7 @@ alias ga='git add .'
 alias gcm='git commit -m'
 alias gc='git checkout'
 alias gcb='git checkout -b'
-alias gl='git log --oneline'
+alias gl='git log --pretty=oneline'
 alias gfp='git fetch && git pull origin'
 alias gp='git push --set-upstream origin'
 
