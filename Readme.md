@@ -3,6 +3,10 @@
 ## Type on terminal
 
 ```json
+git clone git@github.com:samayun/shell-aliases.git
+
+cd shell-aliases
+
 bash install.sh
 ```
 
