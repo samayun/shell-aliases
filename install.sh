@@ -1,4 +1,5 @@
 cp -al aliases/. ~/
 
 
-cp -al .themes/. ~/
+cp -al .themes/. ~/.themes
+
