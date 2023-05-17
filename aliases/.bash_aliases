@@ -67,6 +67,8 @@ alias pads="php artisan db:seed"
 # Makefile
 alias m='make'
 alias mb='make build'
+alias mbl='sudoo make build && sudo make logs'
+alias md='make destroy'
 alias ml='make logs'
 alias ms='make start'
 alias mst='make stop'
