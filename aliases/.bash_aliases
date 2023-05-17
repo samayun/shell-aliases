@@ -1,3 +1,25 @@
+alias c='clear'
+alias po='poweroff'
+
+# Makefile
+alias m='sudo make'
+alias mb='sudo make build'
+alias mbl='sudo make build && sudo make logs'
+alias md='sudo make destroy'
+alias ml='sudo make logs'
+alias ms='sudo make start'
+alias mst='sudo make stop'
+alias kn='sudo killall node'
+alias kd='sudo docker kill $(docker ps -q)'
+
+
+
+# DOCKER
+alias dc='sudo docker container ls'
+alias dca='sudo docker container ls -a'
+
+
+
 # GIT
 alias gs='git status'
 alias gss='git status'
@@ -63,14 +85,3 @@ alias pas="php artisan serve"
 alias pam="php artisan migrate"
 alias pads="php artisan db:seed"
 
-
-# Makefile
-alias m='make'
-alias mb='make build'
-alias mbl='sudoo make build && sudo make logs'
-alias md='make destroy'
-alias ml='make logs'
-alias ms='make start'
-alias mst='make stop'
-alias kn='sudo killall node'
-alias kd='docker kill $(docker ps -q)'
