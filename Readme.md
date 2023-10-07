@@ -21,6 +21,7 @@ bash install.sh
 # GIT
 alias gs='git status'
 alias gss='git status'
+alias gb='git branch'
 alias ga='git add .'
 alias gcm='git commit -m'
 alias gc='git checkout'
