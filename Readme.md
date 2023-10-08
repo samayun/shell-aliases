@@ -18,6 +18,27 @@ bash install.sh
 # filename: .zsh_aliases
 # Edit it : gedit ~/.zsh_aliases
 
+alias c='clear'
+alias po='poweroff'
+
+# Makefile
+alias m='sudo make'
+alias mb='sudo make build'
+alias mbl='sudo make build && sudo make logs'
+alias md='sudo make destroy'
+alias ml='sudo make logs'
+alias ms='sudo make start'
+alias mst='sudo make stop'
+alias kn='sudo killall node'
+alias kd='sudo docker kill $(docker ps -q)'
+
+
+
+# DOCKER
+alias dc='sudo docker container ls'
+alias dca='sudo docker container ls -a'
+alias drm='sudo docker rm -f'
+
 # GIT
 alias gs='git status'
 alias gss='git status'
@@ -30,6 +51,7 @@ alias gl='git log --pretty=oneline'
 alias gfp='git fetch && git pull origin'
 alias gp='git push --set-upstream origin'
 
+
 # NPM
 alias n="npm"
 alias nr="npm run"
@@ -37,8 +59,6 @@ alias ns="npm start"
 alias ns:d="npm run start:dev"
 alias nd="npm run dev"
 alias nb="npm run build"
-alias nw="npm run watch"
-alias nwp="npm run watch-poll"
 alias ni="npm install"
 alias nid="npm install -D"
 alias nig="npm install -g"
@@ -87,14 +107,11 @@ alias pam="php artisan migrate"
 alias pads="php artisan db:seed"
 
 
-# Makefile
-alias m="make"
-alias mb="make build"
-alias ml="make logs"
-alias ms="make start"
-alias mst="make stop"
-alias kn="sudo killall node"
-alias kd="docker kill $(docker ps -q)"
+alias as="xdotool mousemove 100 300"
+alias s30="xdotool click --repeat 240 --delay 10000 4"
+alias sh="xdotool click --repeat 2880 --delay 10000 4"
+
+
 
 # Composer
 alias coi="composer update --ignore-platform-reqs"
