@@ -17,8 +17,7 @@ alias kd='sudo docker kill $(docker ps -q)'
 # DOCKER
 alias dc='sudo docker container ls'
 alias dca='sudo docker container ls -a'
-
-
+alias drm='sudo docker rm -f'
 
 # GIT
 alias gs='git status'
@@ -28,9 +27,10 @@ alias ga='git add .'
 alias gcm='git commit -m'
 alias gc='git checkout'
 alias gcb='git checkout -b'
-alias gl='git log --oneline'
+alias gl='git log --pretty=oneline'
 alias gfp='git fetch && git pull origin'
 alias gp='git push --set-upstream origin'
+
 
 # NPM
 alias n="npm"
@@ -85,4 +85,9 @@ alias pa="php artisan"
 alias pas="php artisan serve"
 alias pam="php artisan migrate"
 alias pads="php artisan db:seed"
+
+
+alias as="xdotool mousemove 100 300"
+alias s30="xdotool click --repeat 240 --delay 10000 4"
+alias sh="xdotool click --repeat 2880 --delay 10000 4"
 
