@@ -50,6 +50,7 @@ alias gcb='git checkout -b'
 alias gl='git log --pretty=oneline'
 alias gfp='git fetch && git pull origin'
 alias gp='git push --set-upstream origin'
+alias gpl='git pull'
 
 
 # NPM
@@ -66,6 +67,21 @@ alias sni="sudo npm install"
 alias sni="sudo npm install"
 alias snid="sudo npm install -D"
 alias snig="sudo npm install -g"
+
+# PNPM
+alias pn="pnpm"
+alias pnr="pnpm run"
+alias pns="pnpm start"
+alias pns:d="pnpm run start:dev"
+alias pnd="pnpm run dev"
+alias pnb="pnpm run build"
+alias pni="pnpm install"
+alias pnid="pnpm install -D"
+alias pnig="pnpm install -g"
+alias spni="sudo pnpm install"
+alias spni="sudo pnpm install"
+alias spnid="sudo pnpm install -D"
+alias spnig="sudo pnpm install -g"
 
 # YARN
 alias y="yarn"
